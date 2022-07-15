@@ -1,0 +1,132 @@
+
+ 
+.custom-logo {
+	display: inline-block;
+	width: 502px;
+	height: 90px;
+	background: url(../../../images/yootheme/logo2.png) 50% 50% no-repeat;
+	background-size: contain;
+}
+/*-- Google translate --*/
+._gtrnsl a{
+	padding:0 2px;
+}
+
+/*--- image bigger ---*/
+
+.image-bigger{
+	overflow:hidden;
+	width: 220px;
+	height:150px;
+	margin:0 0 10px 0;
+	border:3px solid #fff;
+}
+.image-bigger img {
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+ }
+
+.image-bigger img:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+ }
+h3.remove-margin:hover{
+	color: #1a6890;
+ }
+
+/*--------------------------*/
+
+/* footer */
+
+._foot-left  {
+    float: left;
+	text-align:left;
+	font-size:15px;
+   /* height: auto;*/
+	line-height:22px;
+    overflow: hidden;
+    width: 50%;
+}
+._foot-left img  {
+    float: left;
+	margin:0 20px 0 12px;
+}
+
+._foot-right  {
+	float: right;
+	text-align:left;
+	font-size:15px;
+	width: 36%;
+}
+
+._foot-right table img  {
+	/*float: right;*/
+	margin:0 5px 5px 18px;
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	.custom-logo { height: 60px; }
+	
+}
+
+#top-b .mod-plain h1.frontpage {
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 55px;
+}
+#bottom-b .mod-plain{
+	background-image: url("../images/module_box_transparent1.png");
+}
+#bottom-b .mod-plain .frontpage {
+	margin:30px 10px 30px 0;
+}
+
+#top-b .mod-plain h1.frontpage,
+#bottom-b .mod-plain .frontpage a {color: #8699a9; }
+
+.frontpage-padding-top { padding-top: 10px; }
+.frontpage-padding-bottom { padding-bottom: 50px;}
+
+p.front-about-big{
+	/*font-family: Arial,Helvetica,sans-serif;*/
+	font-family: "Arial Narrow",Arial,sans-serif;
+	font-size:21px;
+	font-weight:bold;
+	font-style:italic;
+}
+table.front-graph-big{
+	font-size:22px;
+	margin:28px auto 10px;
+	/*font-family: Arial,Helvetica,sans-serif;*/
+	font-family: "Arial Narrow",Arial,sans-serif;
+}
+.front-obrgr{
+	margin:30px auto 5px;
+	text-align:center;
+}
+.front-obrgr a{
+	font-size:22px;
+}
+
+
+ /* Frontpage Responsive
+ ----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	.frontpage-padding-top { padding-top: 10px; }
+	.frontpage-padding-bottom { padding-bottom: 0px; }
+
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	.frontpage-icons img { width: 70px; }
+
+}
